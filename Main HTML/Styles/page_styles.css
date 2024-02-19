@@ -1,0 +1,44 @@
+.current_page_title {
+    text-align: right;
+    margin-right: 5%;
+    font-size: 300%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Paralucent-Heavy', sans-serif;
+    color: lightgray;
+}
+
+
+.content_title {
+    font-size: 200%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+    margin-left: 4%;
+}
+.content_text {
+    margin-right: 5%;
+    margin-left: 5%;
+    color: #4d4131;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: justify;
+}
+
+.subtitle_content {
+    color: #007bff;
+    font-size: 105%;
+    margin: -1% 5%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.main_content_image {
+    float: left;
+    margin: 2.5%;
+    margin-left: 4.5%;
+}

@@ -1,0 +1,159 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+/* Header styles */
+header {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    background-color: #009bd6; /* Blue header */
+    color: #0c1f2b; /* White text */
+    padding: 5px;
+    font-size: 150%;
+    font-family: 'Right Swipe Personal Use', sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    margin-right: 0; /* Adjust the spacing between the logo and the title */
+    margin-left: 10%;
+}
+
+.logo img {
+    width: 75%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    padding: 0;
+    margin-left: 13%;
+    margin-bottom: -10%;
+    margin-top: -10%;
+}
+
+nav {
+    margin-left: 10.5%; /* Push the navigation to the right */
+}
+header h1 {
+    margin-left: 5%;
+    margin-top: 0;
+    margin-bottom: 0%;
+    font-size: 220%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    /*margin-right: 20px;*/
+    text-align: right;
+}
+
+nav ul li a {
+    color: #0c1f2b; /* White links */
+    text-decoration: none;
+    font-size: 220%;
+    display: block;
+}
+
+.active {
+    color: yellow;
+    font-size: 220%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    text-decoration: transparent;
+    transition: background-color 0.3s ease-in-out;
+    color: yellow;
+
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    width: 100%;
+    font-size: 150%;
+    font-family: 'Paralucent-Medium', sans-serif;
+}
+
+.post_short {
+    max-width: 95%; /* Set maximum width */
+    margin: 2% auto; /* Center the section horizontally */
+    display: flex; /* Use flexbox to center content vertically */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center content horizontally */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Add rounded corners */
+    background-color: whitesmoke; /* Background color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+
+.section_title_short {
+    align-self: flex-start; /* Align the title to the start of the box */
+    margin-bottom: 10px; /* Add spacing between title and content */
+    margin-left: 3%;
+}
+
+.content-text {
+    font-family: 'TikTok Display', sans-serif;
+    line-height: 130%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.read_more {
+    color: darksalmon;
+    text-decoration: none;
+    transition: margin-left 0.5s ease-in-out;
+}
+.read_more:hover {
+    text-decoration: transparent;
+    transition: background-color 0.7s ease-in;
+    color: coral;
+    margin-left: 1%;
+
+}
+
+h2 {
+    color: #007bff;
+}
+
+h3 {
+    color: #007bff;
+}
+
+/* Footer styles */
+footer {
+    background-color: #009bd6;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: calc(100% - 20px); /* Adjust the width as needed */
+    margin: 0 auto; /* Center the footer */
+    color: #0c1f2b;
+    font-size: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Paralucent-Heavy', sans-serif;
+}
